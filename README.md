@@ -2,10 +2,10 @@
 
 LAMP各组件版本：
 
-* L：CentOS 7.3
-* A：httpd 2.4.27
-* M：MariaDB 10.2.7
-* P：PHP 7.1.7
+* **L**：`CentOS 7.3`
+* **A**：`httpd 2.4.27`
+* **M**：`MariaDB 10.2.7`
+* **P**：`PHP 7.1.7`
 
 ## git方式安装(recommended)：
 
