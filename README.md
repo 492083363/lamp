@@ -7,10 +7,17 @@ LAMP各组件版本：
 * M：MariaDB 10.2.7
 * P：PHP 7.1.7
 
-root用户运行下列脚本可以一键安装：
+## git方式安装(recommended)：
+
+```
+git clone https://github.com/yulongjun/lamp.git
+cd lamp
+bash install.sh
+```
+## curl方式安装：
 
 ```bash
 curl -L http://ou5hkxl8l.bkt.clouddn.com/lamp-web-installer |bash
 ```
 
-用的七牛云存储，域名备案中，暂时下载速度不快，只有100KB左右。（MariaDB除外，用的清华的yum源）
+> 用的七牛云存储，域名备案中，暂时下载速度不快，只有100KB左右。（MariaDB除外，用的清华的yum源）
