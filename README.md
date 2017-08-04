@@ -7,6 +7,8 @@ LAMP各组件版本：
 * **M**：`MariaDB 10.2.7`
 * **P**：`PHP 7.1.7`
 
+> CentOS需要联网，并且配置Base和epel源,请自行配置。
+
 ## git方式安装(recommended)：
 
 ```
