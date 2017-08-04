@@ -133,5 +133,6 @@ sed -i '/AddType application\/x-gzip .gz .tgz/a\    AddType application/x-httpd-
 cd ../../..
 
 cp -v test.php /usr/local/httpd24/htdocs/
+/usr/local/httpd24/bin/apachectl restart
 curl 127.0.0.1/test.php
 rm -rf /usr/local/httpd24/htdocs/test.php
