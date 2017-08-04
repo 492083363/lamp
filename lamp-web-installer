@@ -1,0 +1,25 @@
+#!/bin/bash
+# ┌───────────────────────────────────────────────────────┐
+# │Script Name | lamp-web-installer            ▮▮▮▮▮▮▮▮   │
+# │Date        | 2017-08-04                       ▮▮      │
+# │Author      | Yu Longjun                  ▮▮▮▮▮▮▮▮▮▮▮▮ │
+# │Blog        | http://www.yulongnjun.com        ▮▮      │
+# │Version     | 1.0                           ▮▮▮▮▮      │
+# │Description | LNMP Install Script              ▮▮      │
+# └───────────────────────────────────────────────────────┘
+#
+
+mkdir lamp-web-installer
+cd lamp-web-installer
+wget http://ou5hkxl8l.bkt.clouddn.com/install.sh
+wget http://ou5hkxl8l.bkt.clouddn.com/test.php
+wget http://ou5hkxl8l.bkt.clouddn.com/MariaDB.repo
+mkdir src
+cd src
+wget http://ou5hkxl8l.bkt.clouddn.com/apr-1.6.2.tar.bz2
+wget http://ou5hkxl8l.bkt.clouddn.com/apr-util-1.6.0.tar.bz2
+wget http://ou5hkxl8l.bkt.clouddn.com/httpd-2.4.27.tar.bz2
+wget http://ou5hkxl8l.bkt.clouddn.com/wordpress-4.8-zh_CN.zip
+wget http://ou5hkxl8l.bkt.clouddn.com/shasums
+cd ..
+bash install.sh
