@@ -19,6 +19,7 @@ cd src
 wget http://ou5hkxl8l.bkt.clouddn.com/apr-1.6.2.tar.bz2
 wget http://ou5hkxl8l.bkt.clouddn.com/apr-util-1.6.0.tar.bz2
 wget http://ou5hkxl8l.bkt.clouddn.com/httpd-2.4.27.tar.bz2
+wget http://ou5hkxl8l.bkt.clouddn.com/php-7.1.7.tar.bz2
 wget http://ou5hkxl8l.bkt.clouddn.com/wordpress-4.8-zh_CN.zip
 wget http://ou5hkxl8l.bkt.clouddn.com/shasums
 cd ..
