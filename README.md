@@ -21,3 +21,5 @@ curl -L http://ou5hkxl8l.bkt.clouddn.com/lamp-web-installer?attname= |bash
 ```
 
 > 用的七牛云存储，域名备案中，暂时下载速度不快，只有100KB左右。（MariaDB除外，用的清华的yum源）
+
+----------
